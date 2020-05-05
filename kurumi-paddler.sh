@@ -11,4 +11,5 @@ fi
 
 # 実行
 cd ${PADDLER_PATH} && ${NODE_PATH} ./dist/index.js ${KURUMI_MAIL_PATH} emlx
+
 # 以下、emlxをUTF-8かつbase64でデコードする.. 予定
