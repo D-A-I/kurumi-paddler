@@ -1,0 +1,13 @@
+# Logs
+logs
+*.log
+
+# dotenv environment variables file
+.env
+
+# メモ
+private.md
+
+# 設定ファイルは不要
+init.json
+init.yaml
