@@ -11,3 +11,7 @@ private.md
 # 設定ファイルは不要
 init.json
 init.yaml
+
+# pkgで作成した実行ファイルを除外
+.fish-dish
+.paddler
