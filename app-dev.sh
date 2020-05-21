@@ -8,4 +8,4 @@ if [[ -z ${NODE_PATH} || -z ${KURUMI_MAIL_PATH} || -z ${PADDLER} || -z ${FISH_DI
     exit 1
 fi
 # 実行（`paddler`のオプション`-T`はテストモード。`walnut99.emlx`を必ず検出する）
-${NODE_PATH} ${PADDLER} ${KURUMI_MAIL_PATH} emlx -T | xargs ${NODE_PATH} ${FISH_DISH} -s='Yahoo! JAPAN - 確認コード'
+${NODE_PATH} ${PADDLER} ${KURUMI_MAIL_PATH} emlx -T | ${NODE_PATH} ${FISH_DISH} -s='Yahoo! JAPAN - 確認コード'
